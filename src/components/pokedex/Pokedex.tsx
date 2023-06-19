@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Pokemon from "../pokemon";
+import Pokemon from "../Pokemon";
 import { search } from "../../api/pokeApi";
 
 interface PokemonData {
