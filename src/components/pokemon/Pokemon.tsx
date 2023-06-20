@@ -11,7 +11,6 @@ const Pokemon = (props: Props) => {
     <div>
       <div>
         <p>{name.toUpperCase()}</p>
-        <br />
         <img src={front_default} alt={name} />
       </div>
       <div>
