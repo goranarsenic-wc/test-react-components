@@ -8,7 +8,7 @@ const Pokemon = (props: Props) => {
   const { name, sprites, stats } = pokemon;
   const { front_default } = sprites;
   return (
-    <div>
+    <div data-testid='pokemon-component'>
       <div>
         <p>{name.toUpperCase()}</p>
         <img src={front_default} alt={name} />

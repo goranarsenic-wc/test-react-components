@@ -19,10 +19,10 @@ const Pokedex = () => {
   };
   return (
     <div>
-      <div>
+      <div data-testid='app-header'>
         <h1>Pokedex</h1>
       </div>
-      <div>
+      <div data-testid='input-section'>
         <div>
           <label>Pokemon name:</label>
           <input type="text" onChange={(e) => setSearchQuery(e.target.value)} />
